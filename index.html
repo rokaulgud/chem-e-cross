@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2P2VNTQSFV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-2P2VNTQSFV');
+    </script>
+    <meta charset="utf-8"/>
+    <meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <meta name="author" content="Rohit Kaugud"/>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" 
+      rel="stylesheet"/> 
+    <link rel="stylesheet" href="homestyles.css"/>
+    <link rel="shortcut icon" href="media/azeo21.png" height="10px"/>
+    <title>Chem-E-Cross - November 2020</title>
+  </head>
+  <body>
+    <div class="page-container" id="page-container">
+      <header class="header" id="head">
+        <div class="logo">
+          <a href="index.html">
+            <img src="media/azeo21.png" alt="AZeotropy 2021" height="50px"/>
+          </a">
+          <p><a href="index.html">Chem-E-Cross</a></p>
+        </div>
+        <div id="menu" onclick="onClickMenu()">
+				  <div id="bar1" class="bar"></div>
+				  <div id="bar2" class="bar"></div>
+				  <div id="bar3" class="bar"></div>
+			  </div>
+        <nav>
+          <ul class="menu" id="nav">
+            <li><a href="#current_title">Latest</a></li> 
+            <!-- <li><a href="archive.html">Archive</a></li> -->
+            <li><a href="instructions.html">Instructions</a></li>
+            <li><a href="azeotropy.html">AZeotropy</a></li>
+            <li><a class="submit" href="https://forms.gle/ofg4q1kW45wjGhaa8" target="_blank">Submit</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="mainpage" id="mainpage">
+        <div class="title" id="current_title">
+          <h1>Crossword for the month of November 2020</h1>
+        </div>
+          <div class="crossword" id="crossword" >
+            <iframe class="crosslab" src="https://crosswordlabs.com/embed/chem-e-cross_november-3?clue_height=40">
+            </iframe>
+          </div>
+          <div class="timer" id="timer">
+            <p>Time Left:</p>
+            <p id="demo"></p>
+          </div>
+      </div>
+      <footer class="footer" id="footer">
+        <div id="copyright" class="copyright">
+          <p>&copy; 2020, Team Competitions, AZeotropy</p>
+        </div>
+        <div id="social" class="social">
+          <a href="https://www.facebook.com/AZeotropy/" target="_blank">
+            <center><img src="media/nuc-fb.svg" alt="Facebook" height="30px"/></center>
+          </a>
+          <a href="https://www.instagram.com/iitbombay_azeotropy/" target="_blank">
+            <center><img src="media/nuc-insta.svg" alt="Instagram" height="30px"/></center>
+          </a>
+          <a href="https://www.linkedin.com/company/azeotropy" target="_blank">
+            <center><img src="media/nuc-linkedin.svg" alt="Linkedin" height="30px"/></center>
+          </a>
+          <a href="https://azeotropyiitbblog.wordpress.com/" target="_blank">
+            <center><img src="media/nuc-wordpress.svg" alt="Wordpress" height="30px"/></center>
+          </a>
+          <a href="https://www.youtube.com/channel/UCuUhMNqBAYUplxgrhGkEGWQ" target="_blank">
+            <center><img src="media/nuc-yt.svg" alt="YouTube" height="30px"/></center>
+          </a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="toggle.js"></script>
+    <script src="timer.js"></script>
+  </body>
+</html>
