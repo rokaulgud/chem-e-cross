@@ -112,6 +112,7 @@ nav li {
 }
 
 .timer{
+  display: none;
   justify-content: center;
   text-align: center;
   margin: auto;
@@ -131,23 +132,26 @@ nav li {
   width: 180px;
   border: 1px solid #666666;
   border-radius: 5px;
-  animation: blinker 1s ease-out infinite;
+  /* animation: blinker 1s ease-out infinite; */
 }
-@keyframes blinker{
+/* @keyframes blinker{
   50%{
     color: #f37a7a;
   }
-}
+} */
 
 .notice{
   width: 90%;
   margin: auto;
-  margin-top: 1em;
+  margin-top: 3em;
+  margin-top: 3em;
   padding: 1em 2em;
-  border: 1px solid #f37a7a;
+  border: 1px solid #aaaaaa;
   border-radius: 1%;
 }
 .important{
+  display: none;
+
   font-size: 1.2em;
   margin: auto;
   padding-top: 1em;
@@ -339,7 +343,7 @@ nav li {
   }
   .notice{
     width: 75%;
-    border: 1px solid #f37a7a;
+    border: 1px solid #aaaaaa;
   }
 
   .copyright{
@@ -387,7 +391,7 @@ nav li {
 
   .notice{
     width: 60%;
-    border: 1px solid #f37a7a;
+    border: 1px solid #aaaaaa;
   }
   .important{
     font-size: 1.2em;
