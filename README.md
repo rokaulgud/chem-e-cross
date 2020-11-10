@@ -4,3 +4,9 @@
  
  [Learn more about the competition](https://tinyurl.com/chemecrossps) | [Solve the latest crossword](https://bit.ly/chem-e-cross) |
  ---|---|
+ 
+ For feedback and suggestions related to the website, write to [rohit@azeotropy.org](mailto:rohit@azeotropy.org) <br/><br/>
+ 
+ ---
+
+&copy; 2020, Team Competitions, AZeotropy.
