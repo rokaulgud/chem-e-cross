@@ -52,6 +52,10 @@ a:hover {
   font-family: 'Itim', cursive;
   font-size: 1.5em;
 }
+.logo::after{
+  content: '\1F385';
+  margin-left: 0.5em;
+}
 nav ul{
   display: none;
 }
@@ -143,15 +147,14 @@ nav li {
 .notice{
   width: 90%;
   margin: auto;
-  margin-top: 3em;
-  margin-top: 3em;
   padding: 1em 2em;
   border: 1px solid #aaaaaa;
   border-radius: 1%;
 }
+#notice-top{
+  margin-top: 6em;
+}
 .important{
-  display: none;
-
   font-size: 1.2em;
   margin: auto;
   padding-top: 1em;
@@ -160,10 +163,24 @@ nav li {
   text-transform: uppercase;
 }
 .important::before{
-  content: '\26A0';
+  content: '\1F384';
   margin-right: 0.5em;
   color: #f37a7a;
 }
+.remindbutton{
+  width: 50%;
+  padding: 0.5em 1em;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  text-align: center;
+}
+.remindbutton:hover{
+  background-color: #eeeeee;
+}
+
 
 .footer{
   position: absolute;
@@ -197,7 +214,7 @@ nav li {
 @media only screen and (max-width: 500px) {
   header{
     position: absolute;
-    top: 0;
+    top: -5.5em;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -211,6 +228,9 @@ nav li {
 
     width: 100%;
     transform: scale(0.75);
+  }
+  .header-title{
+    margin-left: 0.5em;
   }
   nav{
     width: 100%;
@@ -297,7 +317,7 @@ nav li {
   }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 850px) {
+@media only screen and (min-width: 500px) and (max-width: 870px) {
   header{
     position: fixed;
     top: 0;
@@ -314,6 +334,9 @@ nav li {
     width: 100%;
     margin: auto;
     padding: 0.5em 0;
+  }
+  .header-title{
+    margin-left: 1em;
   }
   nav{
     width: 100%;
@@ -357,7 +380,7 @@ nav li {
   }
 }
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 870px) {
   header{
     position: fixed;
     top: 0;
@@ -370,8 +393,14 @@ nav li {
     background: #ffffff
   }
   .logo{
-    width: 250px;
+    width: 300px;
     justify-content: space-between;
+  }
+  .header-title{
+    margin-left: 0.5em;
+  }
+  .logo::after{
+    margin-left: 0.25em;
   }
   nav ul{
     display: flex;
@@ -400,7 +429,7 @@ nav li {
     margin-bottom: 1em;
   }
   .important::before{
-    content: '\26A0';
+    content: '\1F384';
     margin-right: 0.5em;
     color: #f37a7a;
   }
