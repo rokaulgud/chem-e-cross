@@ -52,6 +52,11 @@ align-items: center;
 font-family: 'Itim', cursive;
 font-size: 1.5em;
 }
+.logo::after{
+    content: '\1F385';
+    margin-left: 0.5em;
+}
+
 nav ul{
 display: none;
 }
@@ -344,7 +349,7 @@ color: #555555;
     }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 850px) {
+@media only screen and (min-width: 500px) and (max-width: 870px) {
     header{
         position: fixed;
         top: 0;
@@ -403,7 +408,7 @@ color: #555555;
     }
 }
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 870px) { /*850 for no Santa layouts*/
     header{
         position: fixed;
         top: 0;
@@ -416,7 +421,7 @@ color: #555555;
         background: #ffffff
     }
     .logo{
-        width: 250px;
+        width: 300px;
         justify-content: space-between;
     }
     nav ul{
