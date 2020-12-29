@@ -51,6 +51,10 @@ a:hover {
     font-family: 'Itim', cursive;
     font-size: 1.5em;
 }
+.logo::after{
+  content: '\1F385';
+  margin-left: 0.5em;
+}
 nav ul{
     display: none;
 }
@@ -211,7 +215,9 @@ nav li {
       width: 100%;
       font-size: 1em;
       box-shadow: 0 1px 10px #aaaaaa;
-      
+    }
+    .header-title{
+      margin-left: 0.5em;
     }
     .logo{
       justify-content: center;
@@ -305,7 +311,7 @@ nav li {
     }
   }
   
-  @media only screen and (min-width: 500px) and (max-width: 850px) {
+  @media only screen and (min-width: 500px) and (max-width: 870px) {
     header{
       position: fixed;
       top: 0;
@@ -314,6 +320,9 @@ nav li {
       flex-direction: column;
       width: 100%;
       background: #ffffff;
+    }
+    .header-title{
+      margin-left: 0.5em;
     }
     .logo{
       justify-content: center;
@@ -367,7 +376,7 @@ nav li {
     }
   }
   
-  @media only screen and (min-width: 850px) {
+  @media only screen and (min-width: 870px) {
     header{
       position: fixed;
       top: 0;
@@ -379,9 +388,15 @@ nav li {
       padding: 10px 50px;
       background: #ffffff
     }
+    .header-title{
+      margin-left: 0.5em;
+    }
     .logo{
-      width: 250px;
+      width: 300px;
       justify-content: space-between;
+    }
+    .logo::after{
+      margin-left: 0.25em;
     }
     nav ul{
       display: flex;

@@ -71,6 +71,7 @@ nav li {
   border: 1px solid #666666;
   border-radius: 5px;
   padding: 0.3em;
+  cursor: not-allowed;
 }
 .submit:hover {
   background-color: #f3f3f3;
@@ -116,6 +117,7 @@ nav li {
 }
 
 .timer{
+  display: none;
   justify-content: center;
   text-align: center;
   margin: auto;
@@ -144,7 +146,7 @@ nav li {
 } */
 
 .notice{
-  display: none;
+  
   width: 90%;
   margin: auto;
   padding: 1em 2em;
@@ -182,8 +184,8 @@ nav li {
 }
 
 .submitbutton{
-  display: none;
-  width: 50%;
+  
+  width: 25%;
   padding: 0.5em 1em;
   margin: auto;
   margin-top: 2em;
@@ -326,6 +328,7 @@ nav li {
 
   .submitbutton{
     display: block;
+    width: 50%;
   }
 
   .copyright{
