@@ -52,7 +52,7 @@ a:hover {
     font-size: 1.5em;
 }
 .logo::after{
-  content: '\1F385';
+  content: '\1F38D';
   margin-left: 0.5em;
 }
 nav ul{
