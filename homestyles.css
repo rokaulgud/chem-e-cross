@@ -119,7 +119,7 @@ nav li {
 }
 
 .timer{
-  display: none;
+  /* display: none; */
   justify-content: center;
   text-align: center;
   margin: auto;
