@@ -52,10 +52,10 @@ a:hover {
   font-family: 'Itim', cursive;
   font-size: 1.5em;
 }
-.logo::after{
+/* .logo::after{
   content: '\1F38D';
   margin-left: 0.5em;
-}
+} */
 
 nav ul{
   display: none;
@@ -87,7 +87,7 @@ nav li {
 
 .title{
   width: 100%;
-  padding: 3em 1em 1.5em 1em; /*increase top padding to 4 when notice removed*/
+  padding: 4em 1em 1.5em 1em; /*decrease top padding to 3 when notice added*/
   text-align: center;
 }
 
@@ -166,8 +166,13 @@ nav li {
   margin-bottom: 1em;
   text-transform: uppercase;
 }
-.important::before{
-  content: '\1F384';
+#important-top::before{
+  content: '\1F4E2';
+  margin-right: 0.5em;
+  color: #f37a7a;
+}
+#query-heading::before{
+  content: '\2754';
   margin-right: 0.5em;
   color: #f37a7a;
 }
@@ -183,6 +188,14 @@ nav li {
 }
 .remindbutton:hover{
   background-color: #eeeeee;
+}
+.query-frame{
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  height: 400px;
+  margin-top: 2em;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
 }
 
 .submitbutton{
@@ -235,7 +248,7 @@ nav li {
   header{
     position: absolute;
     /* top: -5.5em;  for notice enabled page, 0 if no notice*/
-    top: -5.5em;
+    top: 0em;
 
     display: flex;
     flex-direction: column;
@@ -420,15 +433,16 @@ nav li {
     background: #ffffff
   }
   .logo{
-    width: 300px;
+    width: 270px;
     justify-content: space-between;
   }
-  .header-title{
+  /* .header-title{
     margin-left: 0.5em;
-  }
-  .logo::after{
+  } */
+  /* .logo::after{
     margin-left: 0.25em;
-  }
+  } */
+
   nav ul{
     display: flex;
     justify-content: space-between;
