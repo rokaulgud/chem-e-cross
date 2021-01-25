@@ -73,7 +73,9 @@ nav li {
   border: 1px solid #666666;
   border-radius: 5px;
   padding: 0.3em;
-  /* cursor: not-allowed;  for submissions closed screen*/
+  /* for submissions closed screen */
+  cursor: not-allowed;  
+  color: #555555;
 }
 .submit:hover {
   background-color: #f3f3f3;
@@ -87,7 +89,7 @@ nav li {
 
 .title{
   width: 100%;
-  padding: 4em 1em 1.5em 1em; /*decrease top padding to 3 when notice added*/
+  padding: 3em 1em 1.5em 1em; /*increase top padding to 4 when notice removed*/
   text-align: center;
 }
 
@@ -128,7 +130,7 @@ nav li {
   padding: 1em 1em;
 }
 #timer p{
-  display: block;
+  display: none;
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   color: #555555;
@@ -181,7 +183,7 @@ nav li {
   padding: 0.5em 1em;
   margin: auto;
   margin-top: 2em;
-  margin-bottom: 1em;
+  margin-bottom: 2em; /*1 em for no PS*/
   border: 1px solid #aaaaaa;
   border-radius: 5px;
   text-align: center;
@@ -248,7 +250,7 @@ nav li {
   header{
     position: absolute;
     /* top: -5.5em;  for notice enabled page, 0 if no notice*/
-    top: 0em;
+    top: -5.5em;
 
     display: flex;
     flex-direction: column;
