@@ -74,7 +74,7 @@ nav li {
   border-radius: 5px;
   padding: 0.3em;
   /* for submissions closed screen */
-  cursor: not-allowed;  
+  /* cursor: not-allowed;   */
   color: #555555;
 }
 .submit:hover {
@@ -200,8 +200,7 @@ nav li {
   border-radius: 5px;
 }
 
-.submitbutton{
-  
+.submitbutton{  
   width: 25%;
   padding: 0.5em 1em;
   margin: auto;

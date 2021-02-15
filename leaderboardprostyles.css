@@ -51,10 +51,10 @@ a:hover {
     font-family: 'Itim', cursive;
     font-size: 1.5em;
 }
-.logo::after{
+/* .logo::after{
   content: '\1F38D';
   margin-left: 0.5em;
-}
+} */
 nav ul{
     display: none;
 }
@@ -420,12 +420,12 @@ nav li {
       margin-left: 0.5em;
     }
     .logo{
-      width: 300px;
+      width: 270px;
       justify-content: space-between;
     }
-    .logo::after{
+    /* .logo::after{
       margin-left: 0.25em;
-    }
+    } */
     nav ul{
       display: flex;
       justify-content: space-between;
