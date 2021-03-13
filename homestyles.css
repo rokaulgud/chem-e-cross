@@ -173,6 +173,9 @@ nav li {
   margin-right: 0.5em;
   color: #f37a7a;
 }
+#announcement-ps{
+  margin-top: 1.5em;
+}
 #query-heading::before{
   content: '\2754';
   margin-right: 0.5em;
