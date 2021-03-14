@@ -130,7 +130,7 @@ nav li {
   padding: 1em 1em;
 }
 #timer p{
-  display: none;
+  /* display: none; */
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   color: #555555;
@@ -175,6 +175,9 @@ nav li {
 }
 #announcement-ps{
   margin-top: 1.5em;
+}
+#query-tab{
+  margin-top: 50px;
 }
 #query-heading::before{
   content: '\2754';
