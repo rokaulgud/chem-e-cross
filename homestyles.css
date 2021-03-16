@@ -74,7 +74,7 @@ nav li {
   border-radius: 5px;
   padding: 0.3em;
   /* for submissions closed screen */
-  /* cursor: not-allowed;   */
+  cursor: not-allowed;  
   color: #555555;
 }
 .submit:hover {
@@ -141,13 +141,13 @@ nav li {
   width: 180px;
   border: 1px solid #666666;
   border-radius: 5px;
-  /* animation: blinker 1s ease-out infinite; */
+  animation: blinker 1s ease-out infinite; 
 }
-/* @keyframes blinker{
+@keyframes blinker{
   50%{
     color: #f37a7a;
   }
-} */
+}
 
 .notice{
   
@@ -172,6 +172,9 @@ nav li {
   content: '\1F4E2';
   margin-right: 0.5em;
   color: #f37a7a;
+}
+.message{
+  text-align: justify;
 }
 #announcement-ps{
   margin-top: 1.5em;
